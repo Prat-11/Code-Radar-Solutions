@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+
+
+
 int main() {
     int a,b,d;
     float c;
