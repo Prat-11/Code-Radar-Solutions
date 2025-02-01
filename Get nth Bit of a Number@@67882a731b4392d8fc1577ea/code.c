@@ -2,11 +2,12 @@
 
 int main() {
     int a;
-    scanf("%d", &a);
-    if (a & (<< (sizeof(a) * 8 - 1))) {
-        printf("Set");
+    int n;
+    scanf("%d%d", &a,&n);
+    if (a & (1 <<(n))) {
+        printf("1");
     } else {
-        printf("Not Set");
+        printf("0");
     }
     return 0;
 }
