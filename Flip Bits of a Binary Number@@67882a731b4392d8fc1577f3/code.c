@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int pratham;
     scnaf("%d",&pratham);
