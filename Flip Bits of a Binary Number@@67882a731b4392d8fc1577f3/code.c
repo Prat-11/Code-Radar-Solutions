@@ -3,6 +3,6 @@
 int main(){
     int pratham;
     scnaf("%d",&pratham);
-    printf("%d",~pratham)
+    printf("%d",~pratham);
     return 0;
 }
