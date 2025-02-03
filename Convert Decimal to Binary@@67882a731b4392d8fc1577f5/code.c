@@ -10,6 +10,6 @@ int main(){
     print("%d",(n&(1<<i))?1:0);
     }
     if(!flag)
-    printf("0";
-    return 0;)
+    printf("0");
+    return 0;
 }
