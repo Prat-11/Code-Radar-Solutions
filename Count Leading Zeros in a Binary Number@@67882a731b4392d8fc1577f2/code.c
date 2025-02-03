@@ -2,7 +2,8 @@
 
 int main() {
     unsigned pratham,a;
-    scanf("%u",&pratham!=0){
+    scanf("%u",&pratham,a);
+    while(pratham!=0){
         a++;
         pratham=pratham>>1;
     }
