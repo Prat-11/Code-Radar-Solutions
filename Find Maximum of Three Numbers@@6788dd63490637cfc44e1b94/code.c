@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c;
-    scanf("&d %d %d", &a, &b, &c);
-    if (a>b && b>c)
-        printf("%d",a);
-    else if(b>a && a>c)
-        printf("%d",b);
+    int p, q, r;
+    scanf("%d %d %d", &p, &q, &r);
+    if (p > q && q > r)
+    printf("%d",q);
+    else if (q > p && p > r);
+    printf("%d",q);
     else
-        printf("%d",c);
+    printf("%d",r);
     return 0;
 }
