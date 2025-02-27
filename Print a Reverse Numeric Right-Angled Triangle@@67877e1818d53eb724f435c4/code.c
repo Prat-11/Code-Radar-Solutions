@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main(){
-    for(int i=1;i<=5;i++)
+    int a,i,j=1;
+    scanf("%d",&a)
+    for(int i=j;i<=a;i++)
     {
-        for(int j=i;j<=5;j++)
+        for(int j=1;j<=a;j++)
         {
             printf("%d ",j);
         }
